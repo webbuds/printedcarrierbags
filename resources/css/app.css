@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+	font-family: 'Poppins', sans-serif !important;
+}
+h1{
+	font-family: 'Poppins', sans-serif !important;
+}
+h2{
+	font-family: 'Poppins', sans-serif !important;
+}
+h3{
+	font-family: 'Poppins', sans-serif !important;
+}
+h4{
+	font-family: 'Poppins', sans-serif !important;
+}
+h5{
+	font-family: 'Poppins', sans-serif !important;
+}
+h6{
+	font-family: 'Poppins', sans-serif !important;
+}
+p{
+	font-family: 'Poppins', sans-serif !important;
+}
+span{
+	font-family: 'Poppins', sans-serif !important;
+}
+li{
+	font-family: 'Poppins', sans-serif !important;
+}
+a{
+	font-family: 'Poppins', sans-serif !important;
+}
+
+.select2-container--open .select2-dropdown--below{
+	z-index:999999999 !important;
+}
