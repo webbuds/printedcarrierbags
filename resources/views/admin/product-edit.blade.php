@@ -341,21 +341,14 @@
                                     <h6 class="mb-0 fw-bold ">Colors</h6>
                                 </div>
                                  <div class="card-body">
-									  @php $i=1; @endphp									  
+									 									  
 									 @php $j=0; @endphp
-
-									 
 									 @foreach($colors as $color)
 									 @php 
 									 $count=count($product['colors']);
-									 
-									if($i=$count){
-									 $i=$count-1;
-											}
-									
 									 @endphp
 									  <div class="form-check">
-									 @if($color->id=$product['colors'][$i]['id'] )
+									 @if($j<=$count-1 && $color->id==$product['colors'][$j]['id'] )
                                        
                                             <input class="form-check-input" name="colors[]" type="checkbox" value="{{$color->id}}" id="{{$j}}"  checked>
                                             <label class="form-check-label" for="{{$j}}">
@@ -371,7 +364,6 @@
                                        
                                   	 @endif
 												 </div>
-									 @php $i++; @endphp									 
 									 @php $j++; @endphp
 
                                      @endforeach  
@@ -398,7 +390,7 @@
                                         </div>
 									 
 								
-									 @php $i++; @endphp
+									
                                      @endforeach  
                                      
                                     </div>
